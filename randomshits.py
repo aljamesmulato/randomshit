@@ -27,23 +27,3 @@ with st.container():
         )
     with image_1:
         st.image(img_image_1)
-
-#asset
-img_image_2 = Image.open("images/mycat.jpg")
-
-with st.container():
-    st.write("---")
-    image_2, left_2 = st.columns((1,1))
-    with left_2:
-        st.header("My favourite pets is cat")
-        st.write("##")
-        st.write(
-            """
-            Cats are my favourite pet because they're so cute fluffy and funny
-            whenever they're around the house or street i always pet thats how i like them
-            """
-
-
-        )
-    with image_1:
-        st.image(img_image_2)

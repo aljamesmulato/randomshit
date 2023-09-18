@@ -45,4 +45,5 @@ with st.container():
 
 
         )
-    with image_1(img_image_2)
+    with image_1:
+        st.image(img_image_2)

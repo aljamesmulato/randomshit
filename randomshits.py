@@ -29,7 +29,7 @@ with st.container():
         st.image(img_image_1)
 
 #asset
-img_image_2 = Image.open("images/mycat.jpg")
+img_image_2 = Image.open("images/pusa.jpg")
 
 with st.container():
     st.write("---")
@@ -47,3 +47,4 @@ with st.container():
         )
     with image_2:
         st.image(img_image_2)
+

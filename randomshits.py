@@ -33,7 +33,7 @@ img_image_2 = Image.open("images/pusa.jpg")
 
 with st.container():
     st.write("---")
-    image_2, left_1 = st.columns((1,1))
+    image_2, left_1 = st.columns((15,1))
     with left_1:
         st.header("my favourite pet is cat")
         st.write("##")

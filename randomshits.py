@@ -1,12 +1,11 @@
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title="Random Shits",layout="wide")
+st.set_page_config(page_title="Happy Birthday",layout="wide")
 #asset
 img_image_1 = Image.open("images/tine.jpg")
 
-st.title("Random shits")
-st.subheader("this person is not available rn.")
-st.write("[The person who made this website](https://www.facebook.com/alghiejeshua.mulato.1)")
+st.title("Happy Birthday")
+st.write("[Click this link this is not a virus](https://youtu.be/ykHAwUhjjGE?si=FbltIc_DAe36oGfk)")
 
 with st.container():
     st.write("---")
